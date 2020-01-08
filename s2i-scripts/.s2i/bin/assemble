@@ -12,8 +12,6 @@ config_s2i
 
 echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
-cp -f /tmp/src/ping ./
-cp -f /tmp/src/healthz ./
 
 DATE=$(date +%F)
 
